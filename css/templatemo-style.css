@@ -101,9 +101,9 @@ hr {
  .tm-home-subtitle {
   text-transform: uppercase;
  }
-.tm-home-title { font-size: 60px;color: #ffffff }
+.tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #eb5424;
+  color: #ffffff;
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
