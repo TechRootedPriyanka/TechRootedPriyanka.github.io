@@ -1,10 +1,4 @@
-/*
 
-Ultra Profile
-
-https://templatemo.com/tm-464-ultra-profile
-
-*/
 
 body {
   background: #ffffff;
@@ -85,7 +79,7 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: #5f5f5f;
+  color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -103,10 +97,11 @@ hr {
  }
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #ffffff;
+  color: #ff661a;
   font-weight: bold;
-  padding-bottom: 40px;
-  letter-spacing: 2px;
+  padding-bottom: 30px;
+  letter-spacing: 7px;
+  font-size: 36px;
 }
 .tm-view-more-btn {
   background: #eb5424;
