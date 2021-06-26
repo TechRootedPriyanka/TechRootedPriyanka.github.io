@@ -7,6 +7,8 @@ body {
   color: #606060;
   position: relative;
 }
+
+
 html, body {
   width: 100%;
   overflow-x: hidden;
@@ -90,6 +92,22 @@ hr {
           align-items: center;
   text-align: center;  
   height: 100vh;
+}
+
+.icons__top .fa {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.icons__top .fa:hover {
+  color: #eb5424;
+  font-size: 32px;
+}
+
+
+.row1 { 
+  padding:20px;
 }
 .tm-home-title,
  .tm-home-subtitle {
@@ -325,13 +343,19 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
+  background: url('../images/about-bg3.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
 }
+
+.about__text { 
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* END ABOUT */
 
 /* START SOCIAL */
@@ -350,13 +374,21 @@ hr {
 .instagram:hover,
 .linkedin:hover,
 .twitter:hover,
-.medium:hover {
-  background: #202020da;
+.github:hover,
+.dribbble:hover,
+.whatsapp:hover,
+.medium:hover,
+.facebook:hover {
+  background: #242323da;
 }
-.instagram { background: #ff0195 ; }
-.linkedin { background: #456be9 ; }
-.twitter { background: #55acee; }
+.instagram { background: #ef091c ; }
+.linkedin { background: #0a66c2 ; }
+.twitter { background: #5da9dd; }
 .medium { background: #f59c17; }
+.github { background: #111; }
+.dribbble { background: #ea4c89; }
+.whatsapp { background: #09d261; }
+.facebook { background:  #0b82ed; }
 .media {
   padding: 40px 60px 40px 40px;
   -webkit-transition: all 0.6s ease-in;
@@ -383,9 +415,19 @@ hr {
 .tm-social-title {
   font-family: 'Raleway', sans-serif;
 }
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  color: #fff;
+  background-color: #212227;
+
+}
 /* END SOCIAL */
 
-/* START CONTACT */
+/* START CONTACT 
 .tm-contact {
   text-align: center;
   padding-top: 80px;
@@ -408,7 +450,7 @@ hr {
 }
 input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
-/* END CONTACT */
+ END CONTACT */
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
